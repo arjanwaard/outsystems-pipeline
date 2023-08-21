@@ -22,7 +22,7 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
-    script: sudo -H pip3 install setuptools==67.7.1
+    script: sudo -H pip3 install setuptools==58
   displayName: 'Update the setuptools'
 
 - task: PowerShell@2

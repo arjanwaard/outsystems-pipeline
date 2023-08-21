@@ -34,7 +34,7 @@ steps:
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
-    script: pip install -U outsystems-pipeline==$(OSPipelineVersion)
+    script: pip install -vvv -U outsystems-pipeline==$(OSPipelineVersion)
     workingDirectory: $(System.DefaultWorkingDirectory)
   displayName: 'Install OutSystems Pipeline Package'
 

@@ -55,7 +55,7 @@ REQUIREMENTS = [
     'python-dateutil==2.7.5',
     'requests==2.20.1',
     'unittest-xml-reporting==2.2.1',
-    'xunitparser==1.3.3',
+    'xunitparser==1.3.4',
     'pytest==4.3.0'
 ]
 

@@ -3,7 +3,7 @@ steps:
 
 - task: UsePythonVersion@0
   inputs :
-    versionspec: '3.7'
+    versionspec: '3.11'
     addToPath: true
     architecture: 'x64'
   displayName: 'Set Python version'
